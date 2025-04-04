@@ -40,5 +40,7 @@ bool readFromFile(int& N, std::vector<double>& arr)
 			return false;
 		}
 	}
+
+	textFile.close();
 	return true;
 }

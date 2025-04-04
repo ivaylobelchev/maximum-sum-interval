@@ -20,11 +20,12 @@ Ensure the following files are in the same directory:
 - `maximumSum.cpp`
 
 ## Usage
+
 ### Compilation Instructions (Linux)
 
 To compile the program using `g++` on Linux, open a terminal and run the following command:
 
-```
+```sh
 g++ -std=c++14 main.cpp readFromFile.cpp maximumSum.cpp -o max_sum_interval
 ```
 
@@ -34,7 +35,7 @@ This will compile the program and create an executable called `max_sum_interval`
 
 To run the program, execute the compiled program with:
 
-```
+```sh
 ./max_sum_interval
 ```
 
@@ -57,7 +58,11 @@ For example, to test an array with 20 elements, you can use:
 test_data/test20.txt
 ```
 
-## Program Behavior
+### Error Handling
+
+- If the file cannot be opened, an **error message** is displayed.
+
+### Program Behavior
 
 - The program will compute the maximum sum subarray and print the 1-based indices of the subarray.
 - If there are multiple subarrays with the same maximum sum, the program will output the first subarray.
