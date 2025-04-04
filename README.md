@@ -23,7 +23,9 @@ Ensure the following files are in the same directory:
 
 To compile the program using `g++` on Linux, open a terminal and run the following command:
 
+```
 g++ -std=c++14 main.cpp readFromFile.cpp maximumSum.cpp -o max_sum_interval
+```
 
 This will compile the program and create an executable called `max_sum_interval`.
 
