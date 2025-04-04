@@ -19,6 +19,7 @@ Ensure the following files are in the same directory:
 - `maximumSum.hpp`
 - `maximumSum.cpp`
 
+## Usage
 ### Compilation Instructions (Linux)
 
 To compile the program using `g++` on Linux, open a terminal and run the following command:
@@ -56,7 +57,7 @@ For example, to test an array with 20 elements, you can use:
 test_data/test20.txt
 ```
 
-### Program Behavior
+## Program Behavior
 
 - The program will compute the maximum sum subarray and print the 1-based indices of the subarray.
 - If there are multiple subarrays with the same maximum sum, the program will output the first subarray.
